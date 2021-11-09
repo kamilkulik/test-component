@@ -11,5 +11,5 @@ metadata:
 spec: 
   lifecycle: production
   owner: GalileoDigital
-  type: api
+  type: website
   system: public-websites
