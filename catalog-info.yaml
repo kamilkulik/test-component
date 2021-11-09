@@ -1,18 +1,15 @@
 apiVersion: backstage.io/v1alpha1
-kind: API
-
-metadata:
+kind: Component
+metadata: 
   name: audit-restful-api
-  description: Core platform service that can ingest logged user actions from Galileo applications and services, and provide a method for searching and retrieving these entries.
-  annotations:
-    backstage.io/techdocs-ref: dir:./
-  tags:
+  description: Core platform service that can ingest logged user actions from Galileo applications and services
+  annotations: 
+    backstage.io/techdocs-ref: "dir:./"
+  tags: 
     - python
     - rest-api
-
-spec:
-  type: api
-  owner: GalileoDigital
+spec: 
   lifecycle: production
-  definition:
-    $text: https://github.com/GalileoDigital/galileo-core-shared-services-audit-api-service/blob/develop/oas/galileo-audit-log-api.v1.yaml
+  owner: GalileoDigital
+  type: website
+  system: public-websites
