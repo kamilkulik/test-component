@@ -16,5 +16,3 @@ spec:
   type: api
   owner: GalileoDigital
   lifecycle: production
-  definition:
-    $text: https://github.com/GalileoDigital/galileo-core-shared-services-audit-api-service/blob/develop/oas/galileo-audit-log-api.v1.yaml
