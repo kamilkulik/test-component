@@ -6,11 +6,11 @@ metadata:
   description: Core platform service that can ingest logged user actions 
   from Galileo applications and services, and provide a method for searching and 
   retrieving these entries.
-  annotations:
-    backstage.io/techdocs-ref: dir:./
-  tags:
-    - python
-    - rest_api
+annotations:
+  backstage.io/techdocs-ref: dir:./
+tags:
+  - python
+  - rest_api
 
 spec:
   type: api
