@@ -1,15 +1,15 @@
---- 
-annotations: 
-  backstage.io/techdocs-ref: "dir:./"
 apiVersion: backstage.io/v1alpha1
 kind: API
+
 metadata: 
-  description: "Core platform service that can ingest logged user actions from Galileo applications and services, and provide a method for searching and retrieving these entries."
   name: audit-restful-api
+  description: "Core platform service that can ingest logged user actions from Galileo applications and services, and provide a method for searching and retrieving these entries."
+  annotations: 
+    backstage.io/techdocs-ref: "dir:./"
+  tags: 
+    - python
+    - rest_api
 spec: 
   lifecycle: production
   owner: GalileoDigital
   type: api
-tags: 
-  - python
-  - rest_api
