@@ -1,15 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
-metadata: 
-  name: audit-restful-api
-  description: Core platform service that can ingest logged user actions from Galileo applications and services
-  annotations: 
-    backstage.io/techdocs-ref: "dir:./"
-  tags: 
-    - python
-    - rest-api
-spec: 
-  lifecycle: production
-  owner: GalileoDigital
+metadata:
+  name: artist-web
+  description: The place to be, for great artists
+spec:
   type: website
-  system: public-websites
+  lifecycle: production
+  owner: artist-relations-team
+  system: artist-engagement-portal
+  dependsOn:
+    - resource:default/artists-db
+  providesApis:
+    - artist-api
