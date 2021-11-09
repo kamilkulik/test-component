@@ -12,3 +12,4 @@ spec:
   lifecycle: production
   owner: GalileoDigital
   type: api
+  system: public-websites
